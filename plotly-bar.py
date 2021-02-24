@@ -31,8 +31,8 @@ bar_chart=px.bar(data_frame=df1,
        #hover_data=['detenues'],    # values appear as extra data in the hover tooltip
        #custom_data=['others'],
 
-       error_y="err_plus",  # y-axis error bars are symmetrical or for positive direction
-       error_y_minus="err_minus",
+       #error_y="err_plus",  # y-axis error bars are symmetrical or for positive direction
+       #error_y_minus="err_minus",
        labels={"convicts" : "Convicts in Maharashtra","gender" : "Gender"},  # map the labels of the figure
        title='Indian Prison Statistics',  # figure title
        width=1400,  # figure width in pixels
